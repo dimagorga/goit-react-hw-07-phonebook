@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-import { filterContact } from "../../redux/actions";
+import { filterContact } from "../../redux/phonebook/actions";
 import { useDispatch } from "react-redux";
 import s from "./Filter.module.css";
 import { v4 as uuidv4 } from "uuid";

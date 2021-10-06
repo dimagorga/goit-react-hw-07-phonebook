@@ -1,10 +1,10 @@
 // import { removeContact } from "../../redux/actions";
 import { useDispatch, useSelector } from "react-redux";
-import * as contactsOperations from "../../redux/operations";
+import * as contactsOperations from "../../redux/phonebook/operations";
 import {
   getVisibleContacts,
   getIsLoading,
-} from "../../redux/contacts-selectors.js";
+} from "../../redux/phonebook/contacts-selectors.js";
 import { useEffect } from "react";
 import PropTypes from "prop-types";
 import s from "./ContactsList.module.css";

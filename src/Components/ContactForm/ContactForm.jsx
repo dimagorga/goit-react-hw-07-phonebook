@@ -1,6 +1,6 @@
 import { v4 as uuidv4 } from "uuid";
-import * as contactsOperations from "../../redux/operations";
-import { getContacts } from "../../redux/contacts-selectors.js";
+import * as contactsOperations from "../../redux/phonebook/operations";
+import { getContacts } from "../../redux/phonebook/contacts-selectors.js";
 import { useDispatch, useSelector } from "react-redux";
 import s from "./ContactForm.module.css";
 import Button from "../Button/Button";

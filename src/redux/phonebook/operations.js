@@ -1,4 +1,4 @@
-import * as contactsApi from "../api/contactsApi";
+import * as contactsApi from "../../api/contactsApi";
 import * as actions from "./actions";
 
 export const fetchContacts = () => async (dispatch) => {
